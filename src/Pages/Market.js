@@ -1,11 +1,6 @@
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import Tilt from 'react-parallax-tilt'
+import React from 'react'
 
 function Games() {
-    const [isGamesTabOpen, setIsGameTabOpen] = useState(false);
-
     return (
         <div className="flex flex-col min-h-screen w-full justify-center items-end p-2  md:p-8 ">
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 relative z-50'>

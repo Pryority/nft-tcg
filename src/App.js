@@ -4,12 +4,14 @@ import Market from "./Pages/Market";
 import Games from "./Pages/Games/Games";
 import { ChakraProvider } from "@chakra-ui/react";
 import Header from './Components/Header/Header';
+import Grid from './Components/Grid'
 
 function App() {
   return (
     <div class="no-scroll bg-gradient-to-br from-stone-50 to-stone-100/80 dark:bg-teal-900 min-h-screen flex flex-col relative">
       <ChakraProvider>
         <Router>
+          <Grid />
           <Header />
           <Routes>
             <Route path='/' element={<Main />} />
