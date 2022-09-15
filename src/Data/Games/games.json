@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Axie Infinity",
+    "URL": "https://axieinfinity.com/",
+    "creator": "Sky Mavis",
+    "creator_URL": "https://www.skymavis.com/",
+    "image": "https://cdn.vox-cdn.com/thumbor/tq30Y-TdQ7d7n_lKO2mbEdKDbwg=/0x0:1456x747/1200x800/filters:focal(612x258:844x490)/cdn.vox-cdn.com/uploads/chorus_image/image/69990832/https___bucketeer_e05bbc84_baa3_437e_9518_adb32be77984.s3.amazonaws.com_public_images_418f3acf_2d81_4f05_ad62_2c875ec2c33f_4463x2289.0.png",
+    "type": "Fantasy"
+  },
+  {
+    "name": "Parallel",
+    "URL": "https://parallel.life/",
+    "creator": "Immutable",
+    "creator_URL": "https://parallel.life/",
+    "image": "https://pbs.twimg.com/media/FcfCwmWXgAI4U6D?format=jpg&name=4096x4096",
+    "type": "Sci-Fi"
+  },
+  {
+    "name": "Gods Unchained",
+    "URL": "https://godsunchained.com/",
+    "creator": "Immutable",
+    "creator_URL": "https://www.immutable.com/",
+    "image": "https://lutris.net/media/games/screenshots/Kuvakaappaus_-_2019-07-14_14-54-55.png",
+    "type": "Fantasy"
+  },
+  {
+    "name": "Sorare",
+    "URL": "https://sorare.com/",
+    "creator": "Sorare",
+    "creator_URL": "https://sorare.com/",
+    "image": "https://www.techbooky.com/wp-content/uploads/2021/09/social-picture.jpg",
+    "type": "Sports"
+  },
+  {
+    "name": "Skyweaver",
+    "URL": "https://www.skyweaver.net/",
+    "creator": "Horizon",
+    "creator_URL": "https://horizon.io/",
+    "image": "https://i2.wp.com/digiparadise.com/wp-content/uploads/2021/09/Splinterlands-Choosing-Summoner.jpg",
+    "type": "Fantasy"
+  },
+  {
+    "name": "Berserk",
+    "URL": "https://www.legendsreborn.game/",
+    "creator": "Kung Fu Factory",
+    "creator_URL": "https://www.kungfufactory.com/",
+    "image": "https://cdn.sanity.io/images/j6di4pid/production/39d6cdd0f5ccb3c3ccab2f67f3ed7903ba650000-1000x563.png",
+    "type": "Fantasy"
+  }
+]
