@@ -1,6 +1,5 @@
-import { ExternalLinkIcon } from '@chakra-ui/icons'
+
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import GameData from '../../Data/Games/games.json'
 import Tilt from 'react-parallax-tilt'
 

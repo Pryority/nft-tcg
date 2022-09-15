@@ -55,7 +55,7 @@ function Grid() {
         return () => {
             window.removeEventListener('mousemove', handleMouseMove);
         };
-    }, []);
+    }, [mouseX, mouseY]);
 
     // determine rows and columns
     useEffect(() => {
