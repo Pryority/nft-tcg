@@ -12,11 +12,11 @@ function Games() {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative z-50 flex-grid-reverse animate animate-fade-in-r md:animate-fade-in-up'>
                 {GameData.map((game, i) => (
                     <a href={`${game.URL}`} target='_blank' rel='noreferrer'
-                        key={i} className={`flex flex-col h-full justify-between max-w-sm py-4 md:px-3 order-${i - 1}`}>
+                        key={i} className={`flex flex-col h-full justify-between max-w-sm py-4 md:px-3 order-${i - 1} cursor-pointer`}>
                         <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} glareEnable={true} glareBorderRadius='8px' className='shadow-xl'>
-                            <div className="flex w-full cursor-none max-h-[144px] relative" >
+                            <div className="flex w-full max-h-[144px] relative" >
                                 <img src={game.image} className='w-[460px] object-cover rounded-lg' alt='' />
-                                <div className="flex flex-col w-full bg-gradient-to-t from-black/80 to-black/0 shadow-xl rounded-b-lg overflow-hidden cursor-none absolute bottom-0">
+                                <div className="flex flex-col w-full bg-gradient-to-t from-black/80 to-black/0 shadow-xl rounded-b-lg overflow-hidden absolute bottom-0">
                                     <div className="flex flex-col w-full p-4">
                                         <p className="flex flex-col text-3xl text-gray-50 font-bold shadow-xl t-s">{game.name}</p>
                                         <p className="uppercase tracking-wide text-sm font-bold text-gray-50">{game.type}</p>
